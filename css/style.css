@@ -49,6 +49,7 @@ p{
     text-align: right;
 }
 
-a:hover{
+a, a:hover{
     color: white;
+    text-decoration: none;
 }
