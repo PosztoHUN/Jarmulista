@@ -12,7 +12,7 @@ h1{
     color: white;
     font-weight: bold;
 }
-
+ 
 h2{    
     margin-top: 10px;    
     color: black;
@@ -37,9 +37,8 @@ thead>tr:first-child{
     letter-spacing: 2px;  text-transform: uppercase;  
 }
 
-.navbar{
-    background-color: white;
-    color: white;
+.navbar-nav a.nav-link {
+    margin-right: 2rem;
 }
 
 p{
