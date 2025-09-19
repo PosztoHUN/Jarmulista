@@ -1,7 +1,7 @@
 header{    
     background-position: center center;
     height: 350px;
-    background-image: url(../img/MeroICS.JPG);
+    background-repeat: repeat;
 }
 
 h1{
@@ -51,4 +51,8 @@ p{
 a, a:hover{
     color: white;
     text-decoration: none;
+}
+
+body{
+    width: 100vw;
 }
