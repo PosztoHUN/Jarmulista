@@ -10,7 +10,7 @@ h1{
     padding-left: 11rem;    
     font-family: Verdana;
     color: white;
-    font-weight: bold;
+    font-weight: bold; 
 }
  
 h2{    
@@ -55,4 +55,17 @@ a, a:hover{
 
 body{
     width: 100vw;
+}
+
+.text-left{
+    background-color: yellow;
+    position:relative;
+    top:10px;
+}
+
+/* Vertikális középre igazítás a datetime id-hez */
+#datetime {
+    display: flex;
+    align-items: center;
+    height: 100%; /* Biztosítja, hogy a szülő magasságát kitöltse */
 }
